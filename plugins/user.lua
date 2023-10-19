@@ -1,3 +1,7 @@
 return {
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
+  {
+    "thePrimeagen/vim-be-good",
+    cmd = "VimBeGood",
+    config = function() require("VimBeGood").setup {} end,
+  },
 }
