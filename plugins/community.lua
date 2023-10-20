@@ -18,4 +18,6 @@ return {
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.project.project-nvim" },
+  { import = "astrocommunity.split-and-window.windows-nvim" },
 }
