@@ -18,4 +18,10 @@ return {
     event = { "CursorHold", "CursorHoldI" },
     config = function() require "user.gitsigns" end,
   },
+  {
+    "j-hui/fidget.nvim",
+    tag = "legacy",
+    event = "LspAttach",
+    config = function() require "user.fidget" end,
+  },
 }
