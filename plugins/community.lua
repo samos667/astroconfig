@@ -20,4 +20,5 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.project.project-nvim" },
   { import = "astrocommunity.split-and-window.windows-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 }
