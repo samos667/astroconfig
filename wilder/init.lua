@@ -1,7 +1,7 @@
 local wilder = require "wilder"
 wilder.setup { modes = { ":", "/", "?" } }
 -- Disable Python remote plugin
-wilder.set_option("use_python_remote_plugin", 0)
+-- wilder.set_option("use_python_remote_plugin", 0)
 
 wilder.set_option("pipeline", {
   wilder.branch(
